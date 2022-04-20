@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de peso ideal</h1>
+    </header>
+    <form>
+        <label>Nombre:</label>
+        <br><br>
+        <input type="text" name="nom" value="nombre">
+        <br><br>
+        <label>Altura (cm):</label>
+        <br><br>
+        <input type="number" id="quantity" name="quantity" min="50" max ="250">
+        <br><br>
+        <label>Peso (kg):</label>
+        <br><br>
+        <input type="number" id="quantity" name="quantity" min="2" max ="240">
+        <br><br>
+        <label>Edad</label>
+        <br><br>
+        <select  name="edad">
+            <option value="2-3">20-30 años</option>
+            <option value="4-5">40-50 años</option>
+            <option value="5">Más de 50 años</option>
+        </select>
+        <br><br>
+        <label>Género:</label>
+        <br><br>
+        <select  name="genero">
+            <option value="F">Femenino</option>
+            <option value="M">Masculino</option>
+        </select>
+        <br><br>
+        <label>Circunferencia de la muñeca de la mano derecha (cm):</label>
+        <br><br>
+        <input type="number" id="quantity" name="quantity" min="10" max ="30">
+        <br><br><br>
+        <input type="submit" value="enviar">
+        <input type="reset" value ="limpiar">
+    </form>
+    
+</body>
+</html>
